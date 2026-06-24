@@ -31,9 +31,12 @@ const render = () => {
     <h1>Odds and Events</h1>
     <p>Add a number to the bank</p>
     
-    <div class="controls">
+    <form id="numberForm">
       <input type="number" id="numberInput" placeholder="Enter a number" />
-      <button id="addBtn">Add number</button>
+      <button type="submit" id="addBtn">Add number</button>
+    </form>
+
+    <div>
       <button id="sortOneBtn">Sort 1</button>
       <button id="sortAllBtn">Sort All</button>
     </div>
