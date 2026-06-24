@@ -1,0 +1,48 @@
+body {
+  padding: 20px;
+}
+
+#app {
+}
+
+button, input {
+  padding: 5px 10px;
+  margin: 3px;
+}
+
+.numbers {
+  gap: 5px;
+  margin: 5px 0 15px 0;
+  padding: 10px;
+  border: solid black 1px;
+
+}
+
+.number-tag {
+  padding: 3px 10px;
+
+}
+
+h1 {
+  margin: 0 0 10px 0;
+}
+
+h2, h3 {
+  margin: 10px 0 5px 0;
+}
+
+.categories {
+
+}
+
+.category-box {
+  flex: 1;
+}
+
+.category-box h3 {
+  padding-left: 10px;
+}
+
+.controls {
+  margin: 15px 0;
+}
