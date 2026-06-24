@@ -17,15 +17,15 @@ function isEven(number) {
 const render = () => {
   const bankHTML = state.bank.map((num) => {
     return `<span class="number-tag">${num}</span>`;
-  }).join('') || '<span style="color: #999;">Empty</span>';
+  }).join('') ;
 
   const oddsHTML = state.odds.map((num) => {
     return `<span class="number-tag">${num}</span>`;
-  }).join('') || '<span style="color: #999;">Empty</span>';
+  }).join('') ;
 
   const evensHTML = state.evens.map((num) => {
     return `<span class="number-tag">${num}</span>`;
-  }).join('') || '<span style="color: #999;">Empty</span>';
+  }).join('') ;
 
   app.innerHTML = `
     <h1>Odds and Events</h1>
